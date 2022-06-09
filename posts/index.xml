@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sanjay V S on SNJY7</title>
-    <link>http://snjy7.github.io/</link>
-    <description>Recent content in Sanjay V S on SNJY7</description>
+    <title>Blog on SNJY7</title>
+    <link>http://snjy7.github.io/posts/</link>
+    <description>Recent content in Blog on SNJY7</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jun 2022 11:50:43 +0530</lastBuildDate><atom:link href="http://snjy7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jun 2022 11:50:43 +0530</lastBuildDate><atom:link href="http://snjy7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>http://snjy7.github.io/posts/first-post/</link>
