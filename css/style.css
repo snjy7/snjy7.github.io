@@ -1,10 +1,17 @@
+@font-face { font-family: baskerville; 
+			 src: url('/fonts/LibreBaskerville-Regular.ttf'); } 
+
 /* LAYOUT */
 
 body {
-	font-family: sans-serif;
- 	max-width: 800px;
-  	padding: 1rem;
+	font-family: baskerville;
+  	max-width: 860px;
+	padding: 1rem;
   	margin: 0 auto;
+}
+
+hr {
+	border-top: 1px solid black;
 }
 
 .content {
@@ -24,6 +31,7 @@ body {
 .site-nav a {
   	display: block;
 	padding: 0 0.5em;
+	text-decoration: none;
 }
 
 .site-nav .logo {
@@ -31,8 +39,6 @@ body {
   	padding-left: 0;
 	color: black;
 	text-decoration: none;
-	font-family: monospace;
-	font-size: 1.2em;
 }
 
 .main-menu {
