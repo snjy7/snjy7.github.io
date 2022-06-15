@@ -13,10 +13,14 @@ body {
 	line-height: 1.4;
 }
 
-.site-header {
+.site-header, footer {
 	background: #eee;
 	margin: 0;
 	padding: 0.5em;
+}
+
+footer p {
+	margin: 0;
 }
 
 .site-nav {
@@ -54,4 +58,32 @@ footer {
 
 .post-snippet h3 {
   	margin-top: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	body {
+		background: #000;
+		color: #fff;
+	}
+
+	.site-header, footer {
+		background: #111;
+	}
+
+	.site-nav .logo {
+		color: #fff;
+	}
+
+	a {
+		color: #4d7dcb;
+	}
+
+	a:hover {
+		color: #4c7ecf;
+	}
+
+	a:visited {
+		color: #99a5d3;
+	}
 }
