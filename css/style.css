@@ -5,6 +5,12 @@ body {
 	margin: auto;
 }
 
+blockquote{
+	border-left: 2px solid black;
+	margin-left: 0;
+	padding-left: 1em;
+}
+
 .content {
 	padding: 0.5em;
 }
@@ -17,6 +23,7 @@ body {
 	background: #eee;
 	margin: 0;
 	padding: 0.5em;
+	border-radius: 5px;
 }
 
 footer p {
@@ -66,9 +73,13 @@ footer {
 		background: #000;
 		color: #fff;
 	}
+	
+	blockquote {
+		border-color: white;
+	}
 
 	.site-header, footer {
-		background: #111;
+		background: #222;
 	}
 
 	.site-nav .logo {
